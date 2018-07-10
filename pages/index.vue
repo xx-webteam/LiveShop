@@ -1,7 +1,12 @@
 <template>
   <div>
-  <div class="scss_containter">
-    <h1 class="fz-30">scss</h1>
+  <div class="scss_containter fx-space-between">
+    <div class="left">
+      <span class="fz-30">left</span>
+    </div>
+    <div class="right">
+      <span class="fz-40">right</span>
+    </div>
   </div>
  	<div class="rem_demo"></div>
    <van-button type="default">默认按钮</van-button>
@@ -51,8 +56,18 @@ export default {
 @import "~@/assets/style/px-to-rem";
 .scss_containter {
   width: 10rem;
-  height: tr(100px);
+  height: tr(889px);
   border: tr(1px) solid red;
+  .left{
+    width: 5rem;
+    height: tr(100px);
+    background-color: aquamarine;
+  }
+  .right{
+    width: 5rem;
+    height: tr(100px);
+    background-color: antiquewhite;
+  }
 }
 .rem_demo {
   height: tr(75px);

@@ -23,7 +23,6 @@
     "node-sass": "^4.9.2",
     "nuxt": "^1.0.0",
     "nuxt-sass-resources-loader": "^2.0.2",
-    "qs": "^6.5.2",
     "sass-loader": "^7.0.3",
     "vant": "^1.1.12"
   },

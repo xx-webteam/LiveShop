@@ -6,7 +6,6 @@
 
 <script>
 import api from "~/api"
-import qs from 'qs'
 export default {
   components: {},
   data() {
@@ -21,8 +20,7 @@ export default {
         num: 1,
         price: 111
       }
-      var arg = qs.stringify(data)
-      api.postCreatOrder(arg)
+      api.postCreatOrder(data)
         .then(res => {
           console.log(res,'resres')
         })
